@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <title>Formulaire Premium</title>
+</head>
+<body class="formulaire">
+    <main>
+        <h1 class="premium">Commande plan PREMIUM</h1>
+            <fieldset>
+                <legend>Identité</legend>
+                <div>
+                    <label for="lastname"> Nom :</label>
+                </div>
+                <div>
+                    <input type="text" name="lastname" id="lastname" placeholder="Dupont" required>
+                </div>
+                <div>
+                    <label for="firstname">Prénom :</label>
+                </div>
+                <div>
+                    <input type="text" name="firstname" id="firstname" placeholder="Jean" required>
+                </div>
+                <div>
+                    <label for="email">
+                        email :
+                    </label>
+                </div>
+                <div>
+                    <input type="email" name="mail" id="mail" placeholder="dupontjean@gmail.com" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Adresse de livraison</legend>
+                <div>
+                    <label for="Adresse">Nom de la rue</label>
+                </div>
+                <div>
+                    <input type="text" name="adresse" id="adresse" placeholder="33 rue de l'impasse" required>
+                </div>
+                <div>
+                    <label for="postale">Code postale</label>
+                </div>
+                <div>
+                    <input type="text" name="code postale" id="code postale" placeholder="80000" required>
+                </div>
+                <div>
+                    <label for="ville">Ville</label>
+                </div>
+                <div>
+                    <input type="text" name="ville" id="ville" placeholder="Amiens" required>
+                </div>
+                <div>
+                    <label for="pays">Pays</label>
+                </div>
+                <div>
+                    <input type="text" name="pays" id="pays" placeholder="France" required>
+                </div>
+            </fieldset>
+            <fieldset>
+            <legend>Adresse de facturation</legend>
+            <div>
+                <label for="Adresse">Nom de la rue :</label>
+            </div>
+            <div>
+                <input type="text" name="adresse" id="adresse" placeholder="33 rue de l'impasse" required>
+            </div>
+            <div>
+                <label for="postale">Code postale :</label>
+            </div>
+            <div>
+                <input type="text" name="code postale" id="code postale" placeholder="80000" required>
+            </div>
+            <div>
+                <label for="ville">Ville :</label>
+            </div>
+            <div>
+                <input type="text" name="ville" id="ville" placeholder="Amiens" required>
+            </div>
+            <div>
+                <label for="pays">Pays :</label>
+            </div>
+            <div>
+                <input type="text" name="pays" id="pays" placeholder="France" required>
+            </div>   
+            </fieldset>
+            <fieldset>
+                <legend>Choix</legend>
+                <div>
+                    <label for="selection">Selection :</label>
+                    <select name="selection produit" id="selection produit">
+                        <option value="0" disabled selected> sélectionner un produit</option>
+                        <option value="1">Starter</option>
+                        <option value="2">Medium</option>
+                        <option value="3">Premium</option>
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Information de paiement</legend>
+                <div>
+                    <img src="assets/carte visa.png" alt="">
+                </div>
+                <div>
+                    <label for="numéro de carte">Numéro de carte :</label>
+                </div>
+                <div>
+                  <input type="text" name="numero de carte" id="numéro de carte" placeholder="2246789612549801" required>
+                </div>
+                <div>
+                    <label for="date d'expiratio">Date d'expiration :</label>
+                </div>
+                <div>
+                  <input type="text" name="date d'expiration" id="date d'expiratio" placeholder="06/25" required>
+                </div>
+                <div>
+                    <label for="cryptogramme">cryptogramme :</label>
+                </div>
+                <div>
+                    <input type="text" name="cvc" id="cvc" placeholder="654" required>
+                </div>
+                <div>
+                    <label for="prix">Prix :</label>
+                    <select name="prix" id="prix">
+                        <option value="0" disabled selected>selectionnez sont montant</option>
+                        <option value="1">69€</option>
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Choix du goodies</legend>
+                <div>
+                    <input type="checkbox" name="goodies1" id="goodies1">
+                    <label for="goodies1">Stylo</label>
+                    <img src="assets/stylo.jfif" alt="">
+    
+                </div>
+                <div>
+                    <input type="checkbox" name="goodies1" id="goodies2">
+                    <label for="goodies1">Stylo plume</label>
+                    <img src="assets/stylo plume.jfif" alt="">
+                </div>
+                <div>
+                    <input type="checkbox" name="goodies1" id="goodies3">
+                    <label for="goodies1">Broche</label>
+                    <img src="assets/broche.jfif" alt="">
+                </div>
+                <div>
+                    <input type="checkbox" name="goodies1" id="goodies4">
+                    <label for="goodies1">Schtroumph</label>
+                    <img src="assets/stroumph.jfif" alt="">
+                </div>
+                <div>
+                    <input type="checkbox" name="goodies1" id="goodies5">
+                    <label for="goodies5">boîte de jeu</label>
+                    <img src="assets/jeu.jfif" alt="">
+                </div>
+                <div>
+                  <input type="checkbox" name="goodies1" id="goodies6">
+                  <label for="goodies6">Casquette</label>
+                  <img src="assets/casquette.jfif" alt="">
+    
+              </div>
+              <div>
+                  <input type="checkbox" name="goodies1" id="goodies7">
+                  <label for="goodies7">Trousse</label>
+                  <img src="assets/trousse.jfif" alt="">
+              </div>
+              <div>
+                  <input type="checkbox" name="goodies1" id="goodies8">
+                  <label for="goodies8">Pop</label>
+                  <img src="assets/pop.jfif" alt="">
+              </div>
+              <div>
+                  <input type="checkbox" name="goodies1" id="goodies9">
+                  <label for="goodies9">Horloge</label>
+                  <img src="assets/horloge.jfif" alt="">
+              </div>
+              <div>
+                  <input type="checkbox" name="goodies1" id="goodies10">
+                  <label for="goodies10">boîte de cadeau</label>
+                  <img src="assets/plusieur cadeaux.jfif" alt="">
+              </div>
+              <div>
+                <input type="checkbox" name="goodies1" id="goodies11">
+                <label for="goodies11">Sac à main</label>
+                <img src="assets/sac a main.jfif" alt="">
+  
+            </div>
+            <div>
+                <input type="checkbox" name="goodies1" id="goodies12">
+                <label for="goodies7">Figurine Street Fighter </label>
+                <img src="assets/street fighter.jfif" alt="">
+            </div>
+            <div>
+                <input type="checkbox" name="goodies1" id="goodies13">
+                <label for="goodies13">R2D2</label>
+                <img src="assets/café.jfif" alt="">
+            </div>
+            <div>
+                <input type="checkbox" name="goodies1" id="goodies14">
+                <label for="goodies14">Lampe Batman</label>
+                <img src="assets/batman.jpg" alt="">
+            </div>
+            <div>
+                <input type="checkbox" name="goodies1" id="goodies15">
+                <label for="goodies15">boîte de cadeau</label>
+                <img src="assets/plusieur cadeaux.jfif" alt="">
+            </div>
+                
+            </fieldset>
+            <div>
+                <a class="button" href="">Envoyer</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
